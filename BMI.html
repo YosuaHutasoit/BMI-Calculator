@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="BMI.css">
+</head>
+<body>
+
+    <div class="BMI">
+    <h1>BMI</h1>
+    <p>Indeks massa tubuh atau indeks Quetelet merupakan proksi heuristik untuk lemak tubuh manusia berdasarkan berat badan seseorang dan tinggi. IMT tidak benar-benar mengukur persentase lemak tubuh. Yuk, hitung sekarang di BMI Kalkulator.</p>
+    </div>
+
+    <table>
+		<tr>
+			<th>BMI</th>
+			<th>Category</th>
+		</tr>
+		<tr>
+			<td>Below 18.5</td>
+			<td>Underweight</td>
+		</tr>
+		<tr>
+			<td>18.5 - 24.9</td>
+			<td>Normal weight</td>
+		</tr>
+		<tr>
+			<td>25.0 - 29.9</td>
+			<td>Overweight</td>
+		</tr>
+		<tr>
+			<td>30.0 and Above</td>
+			<td>Obese</td>
+		</tr>
+	</table>
+
+
+	<form id="bmi-form">
+		<label>Berat badan (kg)</label>
+		<input type="number" name="weight" id="weight-input" required>
+
+		<label>Tinggi badan (cm)</label>
+		<input type="number" name="height" id="height-input" required>
+
+		<input type="submit" value="Hitung BMI" id="calculate-btn">
+	</form>
+
+	<div id="result-container">
+		<div id="bmi-result"></div>
+		<div id="bmi-status"></div>
+	</div>
+
+
+
+	<script src="BMI.js" defer></script>
+</body>
+</body>
+</html>
