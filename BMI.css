@@ -121,7 +121,8 @@ table {
   }
   
   button {
-	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 	padding: 12px 20px;
 	background-color: rgb(93, 119, 235);
 	color: white;
