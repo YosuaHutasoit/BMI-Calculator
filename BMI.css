@@ -9,7 +9,7 @@ body {
 	margin-top: 20px;
 	text-align: center;
 	max-width: 100%;
-	padding: 20px; 
+	padding: 10px; 
 	background-color: #f2f2f2;
 	border-radius: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
@@ -124,7 +124,7 @@ table {
   }
   
   button {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 40px;
 	padding: 12px 20px;
 	background-color: rgb(93, 119, 235);
