@@ -25,7 +25,7 @@ form.addEventListener("submit", function(item) {
 		bmiStatus.textContent = 'Overweight';
 		bmiStatus.style.color = 'orange';
 	} else {
-		bmiStatus.textContent = 'Obese';
+		bmiStatus.textContent = 'Obesity';
         bmiStatus.style.color = 'yellow';
     }
     
