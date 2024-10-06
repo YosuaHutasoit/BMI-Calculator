@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="/css/style.css">
+	<link rel="icon" href="/img/icon.png" type="image/x-icon">
+</head>
+<body>
+
+	<div class="BMI-2">
+        <h1>BMI Calculator</h1>
+		<p>Masukkan berat dan tinggi Anda di bawah ini untuk memeriksa status BMI Anda.</p>
+    </div>
+
+	<form id="bmi-form">
+		<label>Berat badan (kg)</label>
+		<input type="number" name="weight" id="weight-input" placeholder="Masukkan berat anda" required>
+	
+		<label>Tinggi badan (cm)</label>
+		<input type="number" name="height" id="height-input" placeholder="Masukkan tinggi anda" required>
+	
+		<label>Usia</label>
+		<input type="number" name="age" id="age-input" placeholder="Masukkan usia anda" required>
+	
+		<label>Jenis Kelamin</label>
+		<select name="gender" id="gender-select" required>
+			<option value="">Pilih jenis kelamin</option>
+			<option value="male">Laki-laki</option>
+			<option value="female">Perempuan</option>
+		</select>
+	
+		<input type="submit" value="Hitung BMI" id="calculate-btn">
+	</form>
+
+	<div id="result-container">
+		<div id="bmi-result">BMI</div>
+		<div id="bmi-status">status</div>
+	</div>
+
+	<table>
+		<tr>
+			<th>BMI</th>
+			<th>Category</th>
+		</tr>
+		<tr>
+			<td>Below 18.5</td>
+			<td>Underweight</td>
+		</tr>
+		<tr>
+			<td>18.5 - 24.9</td>
+			<td>Normal weight</td>
+		</tr>
+		<tr>
+			<td>25.0 - 29.9</td>
+			<td>Overweight</td>
+		</tr>
+		<tr>
+			<td>30.0 and Above</td>
+			<td>Obesity</td>
+		</tr>
+	</table>
+
+	<div class="btn-calculate-now">
+		<a href="index.html"> <button>Kembali</button></a>
+	</div>
+
+
+
+	<script src="BMI.js" defer></script>
+</body>
+</body>
+</html>

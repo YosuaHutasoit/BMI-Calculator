@@ -144,4 +144,33 @@ table {
 	background-color: rgb(72, 14, 233);
   }
   
+
+  /* Style untuk label jenis kelamin */
+label[for="gender-select"] {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style untuk select box */
+#gender-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Style untuk option di dalam select box */
+#gender-select option {
+    font-size: 16px;
+}
+
+/* Style untuk option yang terpilih */
+#gender-select option:checked {
+    background-color: #007bff; /* Ubah warna background */
+    color: #fff; /* Ubah warna teks */
+}
+
   
